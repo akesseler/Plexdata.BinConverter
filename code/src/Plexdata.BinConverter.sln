@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Plexdata.BinConverter", "Plexdata.BinConverter\Plexdata.BinConverter.csproj", "{1D71ADB4-08E1-4A82-9239-44A98173D4A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plexdata.BinConverter.Inspector", "Plexdata.BinConverter.Inspector\Plexdata.BinConverter.Inspector.csproj", "{07C7FF57-28B9-42D0-89B5-5873D6037728}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plexdata.BinConverter.Tests", "Plexdata.BinConverter.Tests\Plexdata.BinConverter.Tests.csproj", "{A24C794E-E960-49C4-A9DA-09549D597040}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "General", "General", "{CA3A23F3-475B-4AE8-B072-8303234E4A01}"
+	ProjectSection(SolutionItems) = preProject
+		clean.cmd = clean.cmd
+		HISTORY.md = HISTORY.md
+		post-build.cmd = post-build.cmd
+		README.md = README.md
+		TODOs.md = TODOs.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D71ADB4-08E1-4A82-9239-44A98173D4A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D71ADB4-08E1-4A82-9239-44A98173D4A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D71ADB4-08E1-4A82-9239-44A98173D4A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D71ADB4-08E1-4A82-9239-44A98173D4A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07C7FF57-28B9-42D0-89B5-5873D6037728}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07C7FF57-28B9-42D0-89B5-5873D6037728}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07C7FF57-28B9-42D0-89B5-5873D6037728}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07C7FF57-28B9-42D0-89B5-5873D6037728}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A24C794E-E960-49C4-A9DA-09549D597040}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A24C794E-E960-49C4-A9DA-09549D597040}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A24C794E-E960-49C4-A9DA-09549D597040}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A24C794E-E960-49C4-A9DA-09549D597040}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1AEA28E9-CAA5-4B95-A8BF-9257EC416468}
+	EndGlobalSection
+EndGlobal
