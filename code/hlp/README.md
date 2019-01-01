@@ -6,7 +6,7 @@ The help file project named ``Plexdata.BinConverter.shfbproj`` has been created 
 
 Usually, there should be no need to change this file because of the CHM help file is automatically created during release build of the project sources via ``MSBuild.exe``. But if you like, you may download _Sandcastle Help File Builder_ from [https://github.com/EWSoftware/SHFB/releases](https://github.com/EWSoftware/SHFB/releases) and modify the help project fitting your own needs.
 
-For example you would like to create an HTML version of the project API documentation. In such a case just download and install the _Sandcastle Help File Builder_ as mentioned above. Thereafter, follow the steps below. See also section [Additional Conditions](#additional-conditions-id) for more requirements.
+For example you would like to create an HTML version of the project API documentation. In such a case just download and install the _Sandcastle Help File Builder_ as mentioned above. Thereafter, follow the steps below. See also section **Additional Conditions** for more requirements.
 
 * As first, you should create a copy of the help file project ``Plexdata.BinConverter.shfbproj`` and rename it, for instance into ``Plexdata.BinConverter-HTML.shfbproj``. 
 * As next, open this new file with the _Sandcastle Help File Builder_.
@@ -18,9 +18,10 @@ For example you would like to create an HTML version of the project API document
 
 After a successful build you will find the result inside the project file’s sub-folder you named above.
 
-### Additional Conditions {#additional-conditions-id}
+### Additional Conditions
 
 Ensure the utilities _HTML Help Workshop_ and _Microsoft Build Tools 2015_ are installed on your system. If not, you should download and install them. Below please find the download links of these programs.
 
 * _HTML Help Workshop_: https://www.microsoft.com/en-us/download/details.aspx?id=21138
 * _MS Build Tools 2015_: https://www.microsoft.com/en-us/download/details.aspx?id=48159
+
