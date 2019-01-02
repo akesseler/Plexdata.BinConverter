@@ -16,6 +16,9 @@
     <PackageReleaseNotes>Initial draft.</PackageReleaseNotes>
     <PackageTags>dump bin binary hex hexadecimal converter parser</PackageTags>
     <AssemblyTitle>$(Title)</AssemblyTitle>
+    <PackageLicenseUrl>https://github.com/akesseler/Plexdata.BinConverter/blob/master/LICENSE.md</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/akesseler/Plexdata.BinConverter</PackageProjectUrl>
+    <PackageIconUrl>https://github.com/akesseler/Plexdata.BinConverter/blob/master/icon.png?raw=true</PackageIconUrl>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
